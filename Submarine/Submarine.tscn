@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://bhxv8ubfipg1j"]
+
+[ext_resource type="Script" uid="uid://bf8piqaa2ebwb" path="res://Submarine/submarine.gd" id="1_7sjif"]
+[ext_resource type="Texture2D" uid="uid://bg3p8bm7xvyai" path="res://Submarine/sottomarino_1.png" id="2_4bgh4"]
+[ext_resource type="Script" uid="uid://c5ftqetvbudc3" path="res://Submarine/Camera.gd" id="3_4bgh4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4bgh4"]
+size = Vector2(1456, 368)
+
+[node name="Submarine" type="CharacterBody2D"]
+script = ExtResource("1_7sjif")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1.00002, -2.5)
+texture = ExtResource("2_4bgh4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-104, 16)
+shape = SubResource("RectangleShape2D_4bgh4")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(1, 0)
+offset = Vector2(-100, 0)
+script = ExtResource("3_4bgh4")
