@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bdikkoetk4arp"]
+
+[ext_resource type="PackedScene" uid="uid://dtw5fuftx2ev3" path="res://Submarine/Rooms/Stanza.tscn" id="1_fiox0"]
+
+[sub_resource type="GDScript" id="GDScript_e0ebx"]
+script/source = "extends Sprite2D
+"
+
+[node name="Basiliare" instance=ExtResource("1_fiox0")]
+nome = "Basic Room"
+
+[node name="Sprite2D" parent="." index="1"]
+script = SubResource("GDScript_e0ebx")
