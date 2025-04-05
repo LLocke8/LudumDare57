@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxgd3nwb1bqu0"]
+
+[ext_resource type="PackedScene" uid="uid://dtw5fuftx2ev3" path="res://Submarine/Rooms/Stanza.tscn" id="1_yxey3"]
+[ext_resource type="Script" uid="uid://n8ecyxvxhory" path="res://Submarine/Rooms/Arma/Arma.gd" id="2_1rcwh"]
+
+[node name="Stanza" instance=ExtResource("1_yxey3")]
+script = ExtResource("2_1rcwh")

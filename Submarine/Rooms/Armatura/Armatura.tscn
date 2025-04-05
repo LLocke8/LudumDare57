@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bg27thm0wjiom"]
+
+[ext_resource type="PackedScene" uid="uid://dtw5fuftx2ev3" path="res://Submarine/Rooms/Stanza.tscn" id="1_88xvy"]
+
+[node name="Stanza" instance=ExtResource("1_88xvy")]
+pressure_resistance = 25
+hp = 10
+nome = "Armor Plating"
+descrizione = "Heavy-duty plating specifically designed to significantly increase the submarine's structural integrity against crushing depths and potential impacts."

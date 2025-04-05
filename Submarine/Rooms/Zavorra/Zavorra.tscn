@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://yklxsgjku1dn"]
+
+[ext_resource type="PackedScene" uid="uid://dtw5fuftx2ev3" path="res://Submarine/Rooms/Stanza.tscn" id="1_e0ebx"]
+
+[node name="Stanza" instance=ExtResource("1_e0ebx")]
+pressure_resistance = 10
+hp = 10
+nome = "Ballast"
+descrizione = "Standard ballast tank. Controls buoyancy, allowing the submarine to manage its depth. Must be robust enough to withstand ambient pressure."
